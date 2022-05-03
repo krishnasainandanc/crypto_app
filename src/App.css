@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    position: relative;
+}
+
+.sider-head {
+    position: absolute;
+    top: 0px;
+}
+
+.siders-1 {
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    height: 100vh;
+}
+
+.sider {
+    height: 15vh;
+    display: flex;
+}
+
+.sider h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+.sider img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.content {
+    width: 100%;
+    height: 50vh;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content .divide {
+    display: flex;
+}
+
+.content .divide .left {
+    width: 50%;
+    height: 100%;
+}
+
+.content .divide .right {
+    width: 50%;
+    height: 100%;
+}
+
+
+/* ---------header ------------- */
+
+.Main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+
+/* --------------cyrtoCurrency-------------------- */
+
+.body-cryto {
+    min-height: 80vh;
+}
+
+.text-cryto input {
+    height: 7vh;
+    width: 50vh;
+    border-radius: 25px;
+    border: none;
+    margin: 10px;
+    margin-top: 60px;
+    padding-left: 15px;
+    box-shadow: 15px 10px 10px rgb(63, 49, 255);
+}
+
+.cyrto-head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.cyrto-head h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cyrto {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cyrtoGrid {
+    margin: 10px;
+}
+
+
+/* ----content------- */
+
+.content-main {
+    margin-top: 50px;
+}
+
+
+/* ---------news------------------ */
+
+.news-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NewsHeading {
+    min-height: 80vh;
+    margin-top: 20px;
+}
+
+.NewsHeading h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.news_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.news-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-title h2 {
+    font-weight: bold;
+}
+
+.news-provider {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.news-provider img {
+    margin: 0px 10px 5px 10px;
+}
+
+.news-card .p-card {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 10px;
+}
+
+.news-card {
+    margin: 10px;
+}
+
+.news-card-1 {
+    height: 50vh;
+}
+
+.search-news-1 {
+    width: 35vh;
+    height: 5vh;
+    margin: 5px;
+}
+
+
+/* ---news--heading---- */
+
+.head-grid {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.head-title {
+    display: flex;
+}
+
+.head-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.head-title img {
+    height: 100%;
+    max-width: 70vh;
+}
+
+.head-body p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.provider {
+    display: flex;
+}
+
+.provider img {
+    max-width: 70px;
+    height: 70px;
+}
+
+.provider h4 {
+    margin: 25px 0px 25px 5px;
+}
+
+.end-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-next .control-prev {
+    background-color: black;
+}

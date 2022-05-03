@@ -8,8 +8,7 @@ const request={
     coin:`coins?rapidapi-key=${api_key}`,
     coindetails:``,
     news:`news?rapidapi-key=${api_key_1}`,
-    headling:`news/search?rapidapi-key=${api_key_1}`   
+    headling:`news/search?rapidapi-key=${api_key_1}`,
+    exchange:`exchange/-zdvbieRdZ/coins?rapidapi-key=${api_key}`
 }
-
-
 export {request,Requestfunc}

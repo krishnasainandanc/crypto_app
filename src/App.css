@@ -133,6 +133,7 @@
     font-weight: 600;
 }
 
+
 .news_grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -229,4 +230,55 @@
 
 .control-next .control-prev {
     background-color: black;
+}
+/* Exchange */
+.exchange
+{
+    min-height: 80vh;
+}
+.exchange-table
+{
+    border: 2px solid black;
+    min-width: 100%;
+}
+.exchange-table thead th{
+    border: 1px solid black;
+    padding: 10px;
+}
+.exchange-table tbody tr:nth-child(odd){
+    /* background-color:rgba(0, 149, 255, 0.356); */
+    font-size: 18.5px;
+}
+.exchange-table tbody td{
+    padding: 10px;
+}
+.exchange-table tbody tr:nth-child(odd)
+{
+    background-color:rgba(15, 207, 255, 0.122);
+}
+.exchange-table tbody tr:hover{
+    background-color: dimgrey;
+}
+.exchange-table tbody tr:active{
+    background-color:crimson;
+}
+.exchange-table button
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.exchange-table .st1
+{
+    width:50vw;
+}
+.exchange-table .success
+{
+    padding: 0 10px;
+}
+.exchange-table thead tr{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: rgb(1, 32, 74);
 }

@@ -77,6 +77,11 @@
     min-height: 80vh;
 }
 
+.text-cryto {
+    display: flex;
+    justify-content: space-between;
+}
+
 .text-cryto input {
     height: 7vh;
     width: 50vh;
@@ -86,6 +91,18 @@
     margin-top: 60px;
     padding-left: 15px;
     box-shadow: 15px 10px 10px rgb(63, 49, 255);
+}
+
+.text-cryto button {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(1, 32, 74);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+    position: relative;
+    top: 45px
 }
 
 .cyrto-head {
@@ -132,7 +149,6 @@
     font-size: 30px;
     font-weight: 600;
 }
-
 
 .news_grid {
     display: grid;
@@ -231,54 +247,109 @@
 .control-next .control-prev {
     background-color: black;
 }
+
+
 /* Exchange */
-.exchange
-{
+
+.exchange {
     min-height: 80vh;
 }
-.exchange-table
-{
+
+.exchange-table {
     border: 2px solid black;
     min-width: 100%;
 }
-.exchange-table thead th{
+
+.exchange-table thead th {
     border: 1px solid black;
     padding: 10px;
 }
-.exchange-table tbody tr:nth-child(odd){
+
+.exchange-table tbody tr:nth-child(odd) {
     /* background-color:rgba(0, 149, 255, 0.356); */
     font-size: 18.5px;
 }
-.exchange-table tbody td{
+
+.exchange-table tbody td {
     padding: 10px;
 }
-.exchange-table tbody tr:nth-child(odd)
-{
-    background-color:rgba(15, 207, 255, 0.122);
+
+.exchange-table tbody .odd {
+    background-color: rgba(15, 207, 255, 0.122);
 }
-.exchange-table tbody tr:hover{
+
+.exchange-table tbody tr:hover {
     background-color: dimgrey;
 }
-.exchange-table tbody tr:active{
-    background-color:crimson;
+
+.exchange-table tbody tr:active {
+    background-color: crimson;
 }
-.exchange-table button
-{
+
+.exchange-table button {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.exchange-table .st1
-{
-    width:50vw;
+
+.exchange-table .st1 {
+    width: 50vw;
 }
-.exchange-table .success
-{
+
+.exchange-table .success {
     padding: 0 10px;
 }
-.exchange-table thead tr{
+
+.exchange-table thead tr {
     font-size: 20px;
     font-weight: bold;
-    color:white;
+    color: white;
     background-color: rgb(1, 32, 74);
+}
+
+.text-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-input input {
+    width: 40vw;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.text-input button {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(1, 32, 74);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.checkbox-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-type-1 {
+    /* border: 2px solid black; */
+    margin: 0px 0px 15px 15px
+}
+
+.checkbox-type-1 input[type="checkbox"] {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.checkbox-type-1 label {
+    font-size: 15px;
+    margin-right: 50px
 }

@@ -1,5 +1,6 @@
 {
   "name": "r-app",
+  "homepage": "https://krishnasainandanc.github.io/crypto_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

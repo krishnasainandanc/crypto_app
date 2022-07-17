@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .App {
@@ -352,4 +353,83 @@
 .checkbox-type-1 label {
     font-size: 15px;
     margin-right: 50px
+}
+/* crypto-details */
+.crypto-details{
+    width: 100%;
+    min-height: 80vh;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading-crypto-details
+{
+    width:100%;
+    height: 20vh;
+    border-bottom:2px solid rgba(0, 0, 0, 0.5);
+    display: flex; 
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.heading-crypto-details h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(54, 160, 202);
+}
+.crypto-details select{
+    width:10vw;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 10px;
+    
+}
+.body-crypto-details{
+    display:flex;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    justify-content: space-between;
+}
+.body-crypto-details h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.body-crypto-details p{
+    color:rgba(0, 0, 0, 0.5);
+
+}
+.body-crypto-details table,.Links-crypto-details table{
+    width: 100%;
+}
+.body-crypto-details table tr,.Links-crypto-details table tr{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 40px;
+}
+.body-crypto-details table tr:hover,.Links-crypto-details table tr:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    transition: border-bottom 0.9s;
+}
+.stats-crypto-details{
+    width: 47%;
+    height: auto;
+
+}
+.generic-stats-crypto-details{
+    width: 47%;
+    height: auto
+}
+.html-parse-crypto-details{
+    padding: 20px 10px;
+}
+.html-parse-crypto-details  h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(54, 160, 202);
+}
+.Links-crypto-details h2{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(54, 160, 202);
 }
